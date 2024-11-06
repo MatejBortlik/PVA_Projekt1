@@ -1,0 +1,10 @@
+@media(min-width: 1201px) {
+    body {
+        background: rgb(0, 0, 0);
+    
+    }
+    
+    widescreen h1 {
+        display: block;
+    }
+    }

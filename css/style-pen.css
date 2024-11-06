@@ -1,0 +1,163 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+    }
+    
+    
+    body {
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1,h2{
+        margin: 3rem;
+    }
+    p {
+        margin: 0.75rem 0;
+
+    }
+    .container{
+        max-width: 1100px;
+        margin: auto;
+        padding: 0 2rem;
+        overflow: hidden;
+
+
+    }
+    .text-center {
+        text-align: center;
+
+    
+    }
+    .m-heading {
+        font-size: 2rem;
+        margin-bottom: 0.75rem;
+        line-height: 1.1;
+    }
+    .py-1 {
+        padding: 1.5rem 0;
+
+    }
+    .py-2 {
+        padding: 2rem 0;
+    }
+    .py-3 {
+        padding: 3rem 0;
+    }
+
+    .text-primary{
+        color: indigo;
+
+    
+    }
+    
+    .l-heading {
+    
+        font-size: 4rem;
+        margin-bottom: 0.75rem;
+        line-height: 1.1;
+    
+    
+    }
+    .lead {
+    
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    
+    }
+    
+    .btn {
+    
+        display: inline-block;
+        color: #ffffff;
+        background-color: rgb(127, 187, 255);
+        padding: 0.5rem 2rem;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .btn:hover {
+        background: #000000;
+    }
+    
+    
+    #navbar{
+    
+        background-color: rgb(127, 187, 255);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+    
+    }
+    
+    #navbar .logo{
+        margin: 0 12px;
+    }
+    
+    
+    #navbar ul {
+        display: flex;
+        list-style: none;
+    
+    }
+    
+    #navbar ul li a {
+        text-decoration: none;
+        margin: 0 12px;
+        padding: 0 12px;
+        border-radius: 5px;
+        color: black;
+        text-transform: uppercase;
+    }
+    #navbar ul li a:hover{
+        background-color: rgb(23, 94, 187);
+        color: rgb(255, 255, 255);
+    }
+    #showcase{
+    background: #282828 url("../img/pen.jpg") no-repeat center center/cover;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    
+    }
+    
+    
+    #showcase .showcase-content {
+    
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 0 2rem;
+        background-color: rgba(0,0,0,0.3);
+    }
+
+    #what.items{
+        display: flex;
+        padding: 1rem;
+        justify-content: space-between;
+
+
+    }
+    #what .item {
+        text-align: center;
+        padding: 1rem;
+
+
+    }
+    #what .items .item i {
+        background-color: greenyellow;
+        padding: 1rem;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+
+
+
+    }

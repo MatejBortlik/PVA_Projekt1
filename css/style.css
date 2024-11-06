@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        :root {
+            
+            --primary-color: rgb(196, 26, 26); 
+            --secondary-color: #1b1a1a;
+        }
+
+        .text-primary {
+            color: var(--primary-color);
+        }
+
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        #navbar {
+            background-color: var(--primary-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+            color: rgb(255, 255, 255);
+        }
+
+        #navbar .logo {
+            font-size: 1.3rem;
+            letter-spacing: 1px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            margin: 0 12px;
+            
+        }
+
+        #navbar ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+
+        #navbar ul li a {
+            text-decoration: none;
+            margin: 0 12px;
+            padding: 0 12px;
+            border-radius: 5px;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            transition: background 0.3s;
+        }
+
+        #navbar ul li a:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        #showcase {
+            background: rgb(0, 0, 0) url("../img/View.webp") no-repeat center center/cover;
+            height: 100vh;
+            color: rgb(255, 255, 255);
+        }
+
+        #showcase .showcase-content {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding: 0 2rem;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .l-heading {
+            font-size: 4rem;
+            margin-bottom: 0.75rem;
+            line-height: 1.1;
+        }
+
+        .lead {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            color: white;
+            padding: 0.5rem 2rem;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            background-color: var(--primary-color);
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 2rem;
+            overflow: hidden;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        h2 {
+            margin: 3rem 0;
+            padding: 1rem;
+            color: black;
+        }
+
+
+
+        #about{
+            background-color: #e4e3e3;
+        }
+
+        #about .items {
+            display: flex;
+            padding: 1rem;
+            justify-content: space-around;
+        }
+
+        #about .item {
+            position: relative;
+            text-align: center;
+            padding: 1rem;
+            width: 200px;
+            top: 0;
+            background-color: rgb(255, 255, 255);
+        }
+
+
+
+        #about .items .item i {
+            background-color: rgb(196, 26, 26);
+            border-radius: 50%;
+            margin: 1rem 0;
+            width: 4rem;
+            height: 4rem;
+            line-height: 4rem;
+            color: white;
+        }
+
+        #about .item:hover {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            top: -10px;
+            transition: all 0.5s ease;
+            background-color: rgb(143, 155, 169);
+        }
+
+
+        
+
+        #contact {
+            padding: 0.5rem 0;
+            background-color: #9b9a9a;
+            height: fit-content;
+            
+        }
+
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        #contact input, #contact textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #contact button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: var(--primary-color);
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        #contact button:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        #statistiky {
+            padding: 2rem 0;
+            background-color: #ffffff;
+        }
+        
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .table th {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        footer {
+            background-color: var(--secondary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        #hraci{
+            background-color: #9b9a9a;
+        }
+        
+        #hraci .items {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+        }   
+
+        #hraci .item {
+            position: relative;
+            background-color: rgb(0, 0, 0);
+            margin-bottom: 2rem;
+            text-align: center;
+            
+            
+        }
+
+        #hraci .item:hover .overlay {
+            width: 100%;
+        }
+
+
+        #hraci .image {
+            width: 300px;
+           
+        }
+
+        #hraci .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: var(--primary-color);
+            overflow: hidden;
+            width: 0;
+            height: 100%;
+            transition: .5s ease;
+        }
+
+        #hraci .text {
+            white-space: nowrap;
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+        }

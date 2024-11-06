@@ -1,0 +1,10 @@
+@media(max-width: 500px) {
+body {
+    background: red;
+
+}
+
+smartphone h1 {
+    display: block;
+}
+}
